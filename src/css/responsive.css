@@ -1,0 +1,57 @@
+@media(max-width:375px){
+    body{
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-color: hsl(257, 40%, 49%);
+    }
+    .logo img{
+        width: 120px;
+        
+    }
+
+    .conteudo-principal{
+        display: block;
+
+    }
+
+    .conteudo-principal img{
+        width: 300px;
+        height: 200px;
+        margin: 20px 0px;
+         
+    }
+    
+    .conteudo-principal .texto{
+        text-align: center;
+        margin: auto 40px;
+        
+    }
+
+    
+
+
+    .conteudo-principal .texto .titulo{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .conteudo-principal .texto p{
+        font-size: 13px;
+    }
+
+    .botao{
+        margin-top: 20px;
+        width: 200px;
+        height: 40px;
+        font-size: 10px;
+        
+    }
+    .social{
+        gap: 0;
+        justify-content: center;
+        
+    }
+    .social .rede{
+        margin: 10px;
+        padding: 10px;
+    }
+}
