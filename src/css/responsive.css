@@ -1,57 +1,96 @@
-@media(max-width:425px){
-    body{
-        background: url(../images/bg-mobile.svg) no-repeat;
-        background-color: hsl(257, 40%, 49%);
-    }
-    .logo img{
-        width: 120px;
-        
-    }
+@media (max-width: 1140px) {
+  body {
+    background: url(../images/bg-mobile.svg) no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;
+  }
+  .logo img {
+    width: 220px;
+  }
 
-    .conteudo-principal{
-        display: block;
+  .conteudo-principal {
+    flex-wrap: wrap;
+    gap: 0;
+  }
 
-    }
+  .conteudo-principal img {
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+  }
 
-    .conteudo-principal img{
-        width: 300px;
-        height: 200px;
-        margin: 20px 0px;
-         
-    }
+  .conteudo-principal .texto {
+    text-align: center;
+    width: 500px;
+  }
+
+  .conteudo-principal .texto .titulo {
+    font-size: 45px;
+    margin-top: 30px;
+  }
+
+  .conteudo-principal .texto p {
+    font-size: 23px;
+  }
+
+  .botao {
+    margin-top: 20px;
+    width: 400px;
+    height: 80px;
+    font-size: 20px;
+  }
+  .social {
+    font-size: 30px;
+    gap: 0;
+    justify-content: center;
+  }
+  .social .rede {
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+
+}
+
+
+
+
+
+
+@media (max-width: 569px) {
+  body {
+    background-size: contain;
+  }
+  .logo img {
+    width: 120px;
+  }
+
+  .conteudo-principal img {
+    width: 300px;
+    height: 200px;
     
-    .conteudo-principal .texto{
-        text-align: center;
-        margin: auto 40px;
-        
-    }
+  }
 
-    
+  .conteudo-principal .texto {
+    width: 300px;
+  }
 
+  .conteudo-principal .texto .titulo {
+    font-size: 25px;
+  }
 
-    .conteudo-principal .texto .titulo{
-        font-size: 25px;
-        margin-top: 30px;
-    }
+  .conteudo-principal .texto p {
+    font-size: 13px;
+  }
 
-    .conteudo-principal .texto p{
-        font-size: 13px;
-    }
-
-    .botao{
-        margin-top: 20px;
-        width: 200px;
-        height: 40px;
-        font-size: 10px;
-        
-    }
-    .social{
-        gap: 0;
-        justify-content: center;
-        
-    }
-    .social .rede{
-        margin: 10px;
-        padding: 10px;
-    }
+  .botao {
+    width: 200px;
+    height: 40px;
+    font-size: 10px;
+  }
+  .social .rede{
+    font-size: 10px;
+  }
 }
